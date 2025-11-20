@@ -29,7 +29,7 @@ public class LinkSyncTask {
             return;
         }
 
-        System.out.println("Syncing " + dirtyLinks.size() + " links to DB...");
+        
 
         for (String shortCode : dirtyLinks) {
             String countStr = redisTemplate.opsForValue().get("count:" + shortCode);

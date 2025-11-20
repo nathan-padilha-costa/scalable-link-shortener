@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.linkshortener.demo.dto.LinkAnalytics;
 import com.linkshortener.demo.dto.ShortenRequest;
 import com.linkshortener.demo.model.Link;
 import com.linkshortener.demo.service.LinkService;
@@ -48,5 +49,10 @@ public class LinkController {
             return ResponseEntity.notFound().build();
         }
 
+    }
+
+    @GetMapping("/shorten/{shortCode}/stats")
+    public LinkAnalytics getLinkStats (@PathVariable String shortCode){
+        return linkService.getAnalytics(shortCode);
     }
 }
