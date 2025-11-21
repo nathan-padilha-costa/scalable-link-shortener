@@ -77,17 +77,6 @@ curl -X POST http://localhost:8080/api/v1/shorten \
      -d '{"longUrl": "[https://www.google.com](https://www.google.com)"}'
 ---
 
-## 🔌 API Documentation
-
-### 1. Shorten a Link
-**POST** `/api/v1/shorten`
-
-Creates a new short link. Returns the generated short code.
-
-```bash
-curl -X POST http://localhost:8080/api/v1/shorten \
-     -H "Content-Type: application/json" \
-     -d '{"longUrl": "[https://www.google.com](https://www.google.com)"}'
 ```
 
 **Response:**
