@@ -55,7 +55,7 @@ Você não precisa ter Java ou Maven instalados localmente. Todo o sistema é co
 ### Instalação
 1.  Clone o repositório:
     ```bash
-    git clone [https://github.com/nathan-padilha-costa/high-scale-link-shortener.git](https://github.com/nathan-padilha-costa/high-scale-link-shortener.git)
+    git clone https://github.com/nathan-padilha-costa/scalable-link-shortener.git
     cd high-scale-link-shortener
     ```
 
