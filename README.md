@@ -52,7 +52,7 @@ You do not need Java or Maven installed locally. The entire system is containeri
 ### Installation
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/high-scale-link-shortener.git](https://github.com/nathan-padilha-costa/high-scale-link-shortener.git)
+    git clone [https://github.com/nathan-padilha-costa/high-scale-link-shortener.git](https://github.com/nathan-padilha-costa/high-scale-link-shortener.git)
     cd high-scale-link-shortener
     ```
 
